@@ -1,0 +1,17 @@
+body {
+    font-family: "Esteban", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header {
+    background-color: rgb(240, 145, 160);
+      }
+       
+main {
+    background-color: lightsalmon;
+      }
+      
+footer {
+    background-color: lightgrey;
+}
