@@ -1,17 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Esteban&family=Noto+Sans+SC:wght@100..900&display=swap');
+
 body {
-    font-family: "Esteban", serif;
+    font-family: "Beiruti", serif;
     font-weight: 400;
     font-style: normal;
   }
   
 header {
-    background-color: rgb(240, 145, 160);
+    background-color: #f091a0;
+    font-family: "Beiruti", serif;
       }
-       
+h1 {
+    font-family: "Beiruti", serif;
+    color: black;
+}       
 main {
     background-color: lightsalmon;
+    font-family: "Beirtuti", serif;
+    flex: 1 0 auto 0;
       }
       
 footer {
     background-color: lightgrey;
+    font-family: "Beirtuti", serif;
 }
