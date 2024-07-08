@@ -4,16 +4,14 @@ body {
   font-family: "Beiruti", serif;
   font-weight: 400;
   font-style: normal;
-  background-image: url("https://images.pexels.com/photos/19782063/pexels-photo-19782063/free-photo-of-close-up-of-candles-with-flower-petals.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+  background-image: url("candlebackground.jpg")
   ;
-}
-
 }
 
 #background {
   height: 1000px;
   width: 100%;
-  background-image: url("");
+  
 }
 
 header {
