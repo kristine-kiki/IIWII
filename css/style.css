@@ -3,9 +3,11 @@
 body {
   
   background-image: url("/assets/favicon candle/candlebackground.jpg");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+
 }
 
 header {
@@ -30,6 +32,8 @@ nav li {
   display: inline-block;
   font-size: large;
   margin: 50px;
+  
+
 }
 
 #menu {
@@ -44,18 +48,47 @@ nav li {
 
 #sections {
   list-style-type: none;
+  text-decoration: #ffcc66;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.allsections {
+  background: #281d07;
+}
+
+nav li a {
+  list-style-type: none;
+  background-color: #ffcc66;
+}
+
+nav li a:hover {
+  color:#281d07;
+  text-size-adjust: 0.5;
 }
 
 main {
-
-  font-family: "Beirtuti", serif;
+  font-family: "Beiruti", serif;
   flex: 1 0 auto 0;
 }
 
+
 footer {
 
-  font-family: "Beirtuti", serif;
+  font-family: "Beiruti", serif;
   height: 10%;
+}
+
+p {
+  font-family: "Beiruti", serif;
+  font-size: xx-large;
+  color: rgb(211, 41, 194); 
+}
+
+li {
+  font-family: "Beiruti", serif;
+  color: rgb(211, 41, 194); 
+  font-size: xx-large;
 }
 
 #socialmedia {
