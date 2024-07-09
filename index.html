@@ -13,27 +13,28 @@
 </head>
 
 <body>
+    <header class="text-center page-header form-page-header" id="menu">
+        <nav>
 
-    <nav>
+            <div class="wrap">
+                <div id="sections"></div>
+                <ul>
+                    <li><a id="sections" href="#section1">Our story</a></li>
+                    <li><a id="sections" href="#section2">Workshop</a></li>
+                    <li><a id="sections" href="#section3">Contact us</a></li>
+                    <li><a id="sections" href="#social media">Sign Up!</a></li>
+                </ul>
+            </div>
+        </nav>
 
-        <div id="menu" class="wrap">
-            <div id="sections"></div>
-            <ul>
-                <li><a id="sections" href="#section1">Our story</a></li>
-                <li><a id="sections" href="#section2">Workshop</a></li>
-                <li><a id="sections" href="#section3">Contact us</a></li>
-                <li><a id="sections" href="#social media">Follow us!</a></li>
-            </ul>
+        <div class="wrap text-center" id="pageTop">
+            <h1 class="logo">IIWII</h1>
+
         </div>
-    </nav>
 
-    <div class="wrap" id="pageTop">
-        <h1 class="logo">IIWII</h1>
-
-    </div>
-    <header>
         <a href="index.html">
-            <h1 #logo>It Is What It Is</h1>
+            <h1 id="logo" class="text-center">It Is What It Is</h1>
+            <p>Are you ready to create miricles?</p>
         </a>
     </header>
 
@@ -41,16 +42,17 @@
         <p>
             <h1><a id="section1" class="allsections"></a>Our story</h1>
         </p>
-        <p>Everybody likes a nice atmosphere at home, right? And isn`t it the best way to create it with candles? But,
+        <p>We are a small company that creates handmade eco candles. Let`s be honest - everybody likes a nice atmosphere at home, right? And isn`t it the best way to create it with candles? But,
             as you might already have noticed, good-quality, eco-friendly, and animal-friendly candles do not come
             cheap. So, we were thinking—why not create your own ones with your favorite scent? In autumn, a nice Pumpkin
-            Spice Latte aroma, or in winter, a Gingerbread and apple-warming smell? We are a small company that creates
-            handmade eco candles.
+            Spice Latte aroma, or in winter, a Gingerbread and apple-warming smell? 
         </p>
         <p>
             <h1><a id="section2" class="allsections"></a>Workshop</h1>
         </p>
-        <p>
+        <p>Our vision is to take care of the Planet and encourage to make eco, pet friendly candles at home. With a
+          help of a fun and very instructed video, you will be able to create your own scented candles.</p>
+        <p>So what are we offering?
             <li>online video with clear instructions</li>
             <li>kit with all necessery tools and materials to create your first candle</li>
             <li>2 extra jars and oils to create your own scented candle</li>
@@ -62,6 +64,20 @@
         <p>Tel: 020 12345678</p>
         <p>Email: info@iiwiicandles.com</p>
         <p>Whatsapp: 020 12345678</p>
+    
+        <form id="signup" action="action_page.php">
+            <div class="container">
+                <h1>Sign Up!</h1>
+                <label for="fname"><b>First Name</b></label>
+                <input type="text" placeholder="First Name" name="fname" required>
+                <label for="lname"><b>Last Name</b></label>
+                <input type="text" placeholder="Last Name" name="lname" required>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="email" name="Email" required>
+                
+                <button type="submit" class="submit">Sign Up!</button>
+            </div>
+        </form>
     </main>
 
     <footer>

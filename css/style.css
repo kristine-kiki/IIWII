@@ -11,10 +11,20 @@ body {
 }
 
 header {
-
   font-family: "Beiruti", serif;
 }
 
+.page-header {
+  height: 70vh;
+  background: center 80% no-repeat/cover;
+  background-image: url("assets/favicon candle/pexels-ekaterina-bolovtsova-6311861.jpg");
+}
+ .form-page-header {
+  background-image: url("assets/favicon candle/pexels-ekaterina-bolovtsova-6311861.jpg");
+ } 
+.text-center {
+  text-align: center;
+}
 h1 {
   font-family: "Beiruti", serif;
   color: pink;
@@ -40,6 +50,7 @@ nav li {
   list-style-type: none;
   color: pink;
   letter-spacing: 1.5px;
+  background-image: url("assets/favicon candle/pexels-ekaterina-bolovtsova-6311861.jpg");
 }
 
 #menu>li {
@@ -89,6 +100,9 @@ li {
   font-family: "Beiruti", serif;
   color: rgb(211, 41, 194); 
   font-size: xx-large;
+}
+.container {
+  font-family: "Beiruti", serif;
 }
 
 #socialmedia {
