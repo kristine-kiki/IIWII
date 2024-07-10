@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Esteban&family=Noto+Sans+SC:wght@100..900&display=swap');
 
 body {
-  
-  background-image: url("/assets/favicon candle/candlebackground.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-
+  background-color: #fcd994;
+  font-family: "Beiruti", serif;
+  display:flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 header {
@@ -27,7 +25,7 @@ header {
 }
 h1 {
   font-family: "Beiruti", serif;
-  color: pink;
+  color: rgb(201, 72, 39);
   letter-spacing: 1.5px;
 }
 
@@ -48,7 +46,7 @@ nav li {
 
 #menu {
   list-style-type: none;
-  color: pink;
+  color:rgb(201, 72, 39);
   letter-spacing: 1.5px;
   background-image: url("assets/favicon candle/pexels-ekaterina-bolovtsova-6311861.jpg");
 }
@@ -59,7 +57,7 @@ nav li {
 
 #sections {
   list-style-type: none;
-  text-decoration: #ffcc66;
+  text-decoration: #d0941c;
   font-size: xx-large;
   font-weight: 600;
 }
@@ -70,7 +68,7 @@ nav li {
 
 nav li a {
   list-style-type: none;
-  background-color: #ffcc66;
+  background-color: rgb(201, 72, 39);
 }
 
 nav li a:hover {
@@ -93,16 +91,19 @@ footer {
 p {
   font-family: "Beiruti", serif;
   font-size: xx-large;
-  color: rgb(211, 41, 194); 
+  color: rgb(201, 72, 39); 
 }
 
 li {
   font-family: "Beiruti", serif;
-  color: rgb(211, 41, 194); 
+  color:rgb(201, 72, 39); 
   font-size: xx-large;
 }
-.container {
+#signup {
   font-family: "Beiruti", serif;
+  color: rgb(201, 72, 39); 
+  font-size: x-large;
+
 }
 
 #socialmedia {
