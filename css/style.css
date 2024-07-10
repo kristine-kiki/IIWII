@@ -66,12 +66,12 @@ nav li {
   background: #281d07;
 }
 
-nav li a {
+nav #sections a {
   list-style-type: none;
-  background-color: rgb(201, 72, 39);
+  
 }
 
-nav li a:hover {
+nav #sections a:hover {
   color:#281d07;
   text-size-adjust: 0.5;
 }
