@@ -1,31 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Esteban&family=Noto+Sans+SC:wght@100..900&display=swap');
 
 body {
-  background-color: #fcd994;
   font-family: "Beiruti", serif;
   display:flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: rgb(39, 23,1);
 }
 
 header {
   font-family: "Beiruti", serif;
+  margin: 0 auto;
 }
 
-.page-header {
-  height: 70vh;
-  background: center 80% no-repeat/cover;
-  background-image: url("assets/favicon candle/pexels-ekaterina-bolovtsova-6311861.jpg");
+.logo-img {
+  width: 100%;
 }
- .form-page-header {
-  background-image: url("assets/favicon candle/pexels-ekaterina-bolovtsova-6311861.jpg");
- } 
+
+.wrap {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: black;
+}
+
 .text-center {
   text-align: center;
 }
+
 h1 {
   font-family: "Beiruti", serif;
-  color: rgb(201, 72, 39);
+  color: rgb(255, 222, 177);
   letter-spacing: 1.5px;
 }
 
@@ -40,15 +45,11 @@ nav li {
   display: inline-block;
   font-size: large;
   margin: 50px;
-  
-
 }
 
 #menu {
   list-style-type: none;
-  color:rgb(201, 72, 39);
   letter-spacing: 1.5px;
-  background-image: url("assets/favicon candle/pexels-ekaterina-bolovtsova-6311861.jpg");
 }
 
 #menu>li {
@@ -57,30 +58,36 @@ nav li {
 
 #sections {
   list-style-type: none;
-  text-decoration: #d0941c;
   font-size: xx-large;
   font-weight: 600;
 }
 
+.nav-sections {
+  color: rgb(255, 149, 0);
+}
 .allsections {
-  background: #281d07;
+  background: #ff9500;
 }
 
-nav #sections a {
+nav li a {
   list-style-type: none;
-  
+  font-size: larger;
+  text-transform: capitalize;
 }
 
-nav #sections a:hover {
-  color:#281d07;
+nav li a:hover{
+  color: rgb(255, 222, 177);
   text-size-adjust: 0.5;
 }
-
 main {
   font-family: "Beiruti", serif;
-  flex: 1 0 auto 0;
+  padding: 0 2rem;
 }
 
+.main-splash {
+  width: 100%;
+  height: auto;
+}
 
 footer {
 
@@ -91,28 +98,40 @@ footer {
 p {
   font-family: "Beiruti", serif;
   font-size: xx-large;
-  color: rgb(201, 72, 39); 
+  color: rgb(255, 222, 177); 
 }
 
 li {
   font-family: "Beiruti", serif;
-  color:rgb(201, 72, 39); 
+  color:rgb(255, 222, 177); 
   font-size: xx-large;
 }
+
 #signup {
   font-family: "Beiruti", serif;
-  color: rgb(201, 72, 39); 
+  color: rgb(255, 222, 177); 
   font-size: x-large;
-
 }
 
 #socialmedia {
+  color: rgb(255, 149, 0);
   list-style: none;
   text-align: center;
-  padding: 50;
   display: flex;
   font-size: large;
-  margin: 40px;
   justify-content: space-evenly;
 
+}
+
+.gold {
+  color: rgb(255, 149, 0) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: large;
+  }
+  li {
+    font-size: large;
+  }
 }

@@ -8,100 +8,97 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon candle/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon candle/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon candle/favicon-16x16.png">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">IIWII</h1>
-        </a>
-    </header>
-    <header class="text-center page-header form-page-header" id="menu">
+    <div class="wrap">
+    <header class="text-center" id="menu">
+            <img src="css/images/logo.png" alt="candle logo" class="logo-img">
         <nav>
             <div class="wrap">
                 <div id="sections"></div>
                 <ul>
-                    <li><a id="sections" href="#section1">Our story</a></li>
-                    <li><a id="sections" href="#section2">Workshop</a></li>
-                    <li><a id="sections" href="#section3">Contact us</a></li>
-                    <li><a id="sections" href="#social media">Sign Up!</a></li>
+                    <li><a class="nav-sections" href="#section1">Our story</a></li>
+                    <li><a class="nav-sections" href="#section2">Workshop</a></li>
+                    <li><a class="nav-sections" href="#section3">Contact us</a></li>
+                    <li><a class="nav-sections" href="#socialmedia">Sign Up!</a></li>
                 </ul>
             </div>
         </nav>
-
-        <div class="wrap text-center" id="pageTop"></div>
-        <a>
+        <img src="css/images/threecandles.png" alt="three candles" class="main-splash">
+        
         <h1 id="logo" class="text-center">It Is What It Is</h1>
         <p>Are you ready to create miricles?</p>
-        </a>
+    
     </header>
 
     <main>
-        <p>
-            <h1><a id="section1" class="allsections"></a>Our story</h1>
-        </p>
+            <h2><a id="section1" class="allsections"></a>Our story</h2>
         <p>We are a small company that creates handmade eco candles. Let`s be honest - everybody likes a nice atmosphere
             at home, right? And isn`t it the best way to create it with candles? But,
             as you might already have noticed, good-quality, eco-friendly, and animal-friendly candles do not come
             cheap. So, we were thinking—why not create your own ones with your favorite scent? In autumn, a nice Pumpkin
             Spice Latte aroma, or in winter, a Gingerbread and apple-warming smell?
         </p>
-        <p>
-            <h1><a id="section2" class="allsections"></a>Workshop</h1>
-        </p>
+            <h2><a id="section2" class="allsections"></a>Workshop</h2>
         <p>Our vision is to take care of the Planet and encourage to make eco, pet friendly candles at home. With a
             help of a fun and very instructed video, you will be able to create your own scented candles.</p>
-        <p>So what are we offering?
+        <p>So what are we offering?</p>
+        <ul>
             <li>online video with clear instructions</li>
             <li>kit with all necessery tools and materials to create your first candle</li>
             <li>2 extra jars and oils to create your own scented candle</li>
             <li>most important <strong>a new hobby</strong> and fun!</li>
-        </p>
-        <p>
-            <h1><a id="section3" class="contact allsections"></a>Contact us</h1>
-        </p>
+        </ul>
+            <h2><a id="section3" class="contact allsections"></a>Contact us</h2>
         <p><i class="fa-solid fa-phone-flip"></i> 020 12345678</p>
         <p><i class="fa-solid fa-envelope"></i> info@iiwiicandles.com</p>
         <p><i class="fa-brands fa-whatsapp"></i> 020 12345678</p>
 
-        <form id="signup" action="action_page.php">
+        <form id="signup" onsubmit="return mailSent();">
             <div class="container">
-                <h1>Sign Up!</h1>
+                <h2>Sign Up!</h2>
                 <label for="fname"><b>First Name</b></label>
                 <input type="text" placeholder="First Name" name="fname" required>
+                <br>
                 <label for="lname"><b>Last Name</b></label>
                 <input type="text" placeholder="Last Name" name="lname" required>
+                <br>
                 <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="email" name="Email" required>
+                <input type="email" placeholder="email" name="Email" required>
+                <br>
                 <button type="submit" class="submit">Sign Up!</button>
             </div>
         </form>
     </main>
 
     <footer>
-        <p>
-            <h1><a id="social media" class="social media allsections"></a></h1>
-        </p>
+            <h2><a id="socialmedia" class="socialmedia allsections"></a></h2>
 
         <ul id="socialmedia">
-            <li><a href="https://facebook.com/" target="_parent" rel="noopener" aria-label="facebook new tab">
-                    <i class="fa-brands fa-facebook"></i></a>
+            <li><a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="facebook new tab">
+                    <i class="fa-brands fa-facebook gold"></i></a>
             </li>
-            <li><a href="https://instagram.com" target="_parent" rel="noopener" aria-label="insta new tab"><i
-                        class="fa-brands fa-instagram"></i></a>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="insta new tab"><i
+                        class="fa-brands fa-instagram gold"></i></a>
             </li>
-            <li><a href="https://x.com/" target="_parent" rel="noopener" aria-label="X new tab"><i
-                        class="fa-brands fa-x-twitter"></i></a>
+            <li><a href="https://x.com/" target="_blank" rel="noopener" aria-label="X new tab"><i
+                        class="fa-brands fa-x-twitter gold"></i></a>
             </li>
-            <li><a href="https://whatsapp.com/" target="_parent" rel="noopener" aria-label="whatsapp new tab"><i
-                        class="fa-brands fa-whatsapp"></i></a>
+            <li><a href="https://whatsapp.com/" target="_blank" rel="noopener" aria-label="whatsapp new tab"><i
+                        class="fa-brands fa-whatsapp gold"></i></a>
             </li>
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/9d85a922e7.js" crossorigin="anonymous"></script>
-
+    <script>
+        function mailSent() {
+            const former=document.getElementById("signup");
+            former.innerHTML="<h3 class="gold">Thank you, you are now signed up!</h3>";    
+        }
+    </script>
 </body>
 
 </html>
