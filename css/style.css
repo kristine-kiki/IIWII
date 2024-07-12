@@ -15,6 +15,7 @@ header {
 
 .logo-img {
   width: 100%;
+  height: auto;
   box-shadow: 0 7px 7px rgb(255, 222, 177);
 }
 
@@ -31,8 +32,11 @@ header {
 
 h1 {
   font-family: "Beiruti", serif;
-  color: rgb(255, 222, 177);
-  letter-spacing: 1.5px;
+  color: rgb(255, 149, 0);
+  font-size: 50px;
+  letter-spacing: 2px;
+  text-shadow: 0 1.5px 0px rgb(255, 222, 177);
+  
 }
 
 nav ul {
@@ -46,6 +50,7 @@ nav li {
   display: inline-block;
   font-size: large;
   margin: 50px;
+  box-shadow: 0 4px 4px rgb(255, 222, 177);
 }
 
 #menu {
@@ -71,6 +76,11 @@ nav li {
   background: #ff9500;
 }
 
+nav a {
+  text-decoration: none;
+  
+}
+
 nav li a {
   list-style-type: none;
   font-size: larger;
@@ -79,6 +89,7 @@ nav li a {
 
 nav li a:hover {
   color: rgb(255, 222, 177);
+  
   
 }
 
