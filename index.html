@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="iiwii, candles, crafting, eco, eco friendly, pet friendly, wax, soya wax, home made, hand made">
+    <meta name="keywords"
+        content="iiwii, candles, crafting, eco, eco friendly, pet friendly, wax, soya wax, home made, hand made">
     <meta name="author" content="It Is What It Is">
     <title>IIWII</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/faviconcandle/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/faviconcandle/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/faviconcandle/favicon-16x16.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/css/faviconcandle/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/css/faviconcandle/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/css/faviconcandle/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="wrap">
         <header class="text-center" id="menu">
-            <img src="css/images/logo.webp" alt="candle-logo" class="logo-img">
+            <img src="assets/css/images/logo.png" alt="candle-logo" class="logo-img">
             <nav>
                 <div class="wrap">
                     <div id="sections"></div>
@@ -28,7 +29,7 @@
                     </ul>
                 </div>
             </nav>
-            <img src="css/images/threecandles.png" alt="three candles" class="main-splash">
+            <img src="../assets/css/images/threecandles.png" alt="three candles" class="main-splash">
 
 
             <h1>Are you ready to create miracles?</h1>
@@ -60,13 +61,13 @@
             <p><i class="fa-solid fa-phone-flip"></i> 020 12345678</p>
             <p><i class="fa-solid fa-envelope"></i> info@iiwiicandles.com</p>
             <p><i class="fa-brands fa-whatsapp"></i> 020 12345678</p>
-            
-                <h2><a id="signup" class="nav-sections"></a>Sign Up!</h2>
-                <div class="container">
-                    <input type="email" placeholder="Email" name="Email" required>
-                    <button type="submit" class="submit">Sign Up!</button>
-                    <form id="sign.up" onsubmit="return mailSent();"></form>
-                </div>
+
+            <h2><a id="signup" class="nav-sections"></a>Sign Up!</h2>
+            <div class="container">
+                <input type="email" placeholder="Email" name="Email" required>
+                <button type="submit" class="submit">Sign Up!</button>
+
+            </div>
         </main>
 
         <footer>
@@ -84,16 +85,13 @@
                             class="fa-brands fa-whatsapp gold"></i></a>
                 </li>
             </ul>
+            <p class="reserved">&copy; 2024 IIWII. All rights reserved.</p>
         </footer>
+
     </div>
-    
-        <script src="https://kit.fontawesome.com/9d85a922e7.js" crossorigin="anonymous"></script>
-        <script>
-            function mailSent() {
-            const former = document.getElementById("signup");
-            former.innerHTML = '<h3 class="gold">Thank you, you are now signed up!</h3>';
-        }
-        </script>   
+
+    <script src="https://kit.fontawesome.com/9d85a922e7.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
