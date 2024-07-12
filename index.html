@@ -31,7 +31,7 @@
             <img src="css/images/threecandles.png" alt="three candles" class="main-splash">
 
 
-            <h1><italic>Are you ready to create miracles?</italic></h1>
+            <h1>Are you ready to create miracles?</h1>
 
         </header>
 
@@ -65,9 +65,8 @@
                 <div class="container">
                     <input type="email" placeholder="Email" name="Email" required>
                     <button type="submit" class="submit">Sign Up!</button>
-                    <form id="sign.up" onsubmit="return mailSent();">
+                    <form id="sign.up" onsubmit="return mailSent();"></form>
                 </div>
-            </form>
         </main>
 
         <footer>
@@ -92,7 +91,8 @@
         <script>
             function mailSent() {
             const former = document.getElementById("signup");
-            former.innerHTML="<h3 class="gold">Thank you, you are now signed up!</h3>";}
+            former.innerHTML = '<h3 class="gold">Thank you, you are now signed up!</h3>';
+        }
         </script>   
 </body>
 
