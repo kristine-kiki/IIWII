@@ -24,19 +24,19 @@
                         <li><a class="nav-sections" href="#section1">Our story</a></li>
                         <li><a class="nav-sections" href="#section2">Workshop</a></li>
                         <li><a class="nav-sections" href="#section3">Contact us</a></li>
-                        <li><a class="nav-sections" href="#social.media">Sign Up!</a></li>
+                        <li><a class="nav-sections" href="#signup">Sign Up!</a></li>
                     </ul>
                 </div>
             </nav>
             <img src="css/images/threecandles.png" alt="three candles" class="main-splash">
 
 
-            <h1>Are you ready to create miricles?</h1>
+            <h1><italic>Are you ready to create miracles?</italic></h1>
 
         </header>
 
         <main>
-            <h2><a id="section1" class="allsections"></a>Our story</h2>
+            <h2><a id="section1" class="nav-sections"></a>Our story</h2>
             <p>We are a small company that creates handmade eco candles. Let`s be honest - everybody likes a nice
                 atmosphere
                 at home, right? And isn`t it the best way to create it with candles? But,
@@ -45,10 +45,10 @@
                 Pumpkin
                 Spice Latte aroma, or in winter, a Gingerbread and apple-warming smell?
             </p>
-            <h2><a id="section2" class="allsections"></a>Workshop</h2>
+            <h2><a id="section2" class="nav-sections"></a>Workshop</h2>
             <p>Our vision is to take care of the Planet and encourage to make eco, pet friendly candles at home. With a
                 help of a fun and very instructed video, you will be able to create your own scented candles.</p>
-            <p>So what are we offering?</p>
+            <h2>So what are we offering?</h2>
             <ul>
                 <li>online video with clear instructions</li>
                 <li>kit with all necessery tools and materials to create your first candle</li>
@@ -56,25 +56,16 @@
                 <li>most important <strong>a new hobby</strong> and fun!</li>
             </ul>
 
-            <h2><a id="section3" class="contact allsections"></a>Contact us</h2>
+            <h2><a id="section3" class="contact nav-sections"></a>Contact us</h2>
             <p><i class="fa-solid fa-phone-flip"></i> 020 12345678</p>
             <p><i class="fa-solid fa-envelope"></i> info@iiwiicandles.com</p>
             <p><i class="fa-brands fa-whatsapp"></i> 020 12345678</p>
             
-            
-            <form id="signup" onsubmit="return mailSent();">
-                <h2><a id="social.media" class="allsections"></a>Sign Up!</h2>
+                <h2><a id="signup" class="nav-sections"></a>Sign Up!</h2>
                 <div class="container">
-                    <label id="fname"><b>First Name</b></label>
-                    <input type="text" placeholder="First Name" name="fname" required>
-                    <br>
-                    <label id="lname"><b>Last Name</b></label>
-                    <input type="text" placeholder="Last Name" name="lname" required>
-                    <br>
-                    <label id="email"><b>Email</b></label>
-                    <input type="email" placeholder="email" name="Email" required>
-                    <br>
+                    <input type="email" placeholder="Email" name="Email" required>
                     <button type="submit" class="submit">Sign Up!</button>
+                    <form id="sign.up" onsubmit="return mailSent();">
                 </div>
             </form>
         </main>
@@ -96,12 +87,12 @@
             </ul>
         </footer>
     </div>
+    
         <script src="https://kit.fontawesome.com/9d85a922e7.js" crossorigin="anonymous"></script>
         <script>
-            function mailSent() {}
+            function mailSent() {
             const former = document.getElementById("signup");
-            former.innerHTML = "<h3 class="
-            gold;">Thank you, you are now signed up!</h3>";
+            former.innerHTML="<h3 class="gold">Thank you, you are now signed up!</h3>";}
         </script>   
 </body>
 

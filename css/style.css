@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Esteban&family=Noto+Sans+SC:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
 
 body {
-  font-family: "Beiruti", serif;
+  font-family: "Roboto", serif;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -9,7 +16,7 @@ body {
 }
 
 header {
-  font-family: "Beiruti", serif;
+  font-family: "Roboto", serif;
   margin: 0 auto;
 }
 
@@ -17,6 +24,7 @@ header {
   width: 100%;
   height: auto;
   box-shadow: 0 7px 7px rgb(255, 222, 177);
+  
 }
 
 .wrap {
@@ -31,14 +39,18 @@ header {
 }
 
 h1 {
-  font-family: "Beiruti", serif;
+  font-family: "Roboto", serif;
   color: rgb(255, 149, 0);
   font-size: 50px;
   letter-spacing: 2px;
-  text-shadow: 0 1.5px 0px rgb(255, 222, 177);
-  
+  text-shadow: 0 1.5px 0px rgb(255, 222, 177); 
 }
 
+h2 {
+  font-family: "Roboto", serif;
+  color: rgb(255, 149, 0);
+  font-size: 25px;
+}
 nav ul {
   list-style: none;
   text-align: center;
@@ -69,6 +81,7 @@ nav li {
 }
 
 .nav-sections {
+  font-size: large;
   color: rgb(255, 149, 0);
 }
 
@@ -78,7 +91,6 @@ nav li {
 
 nav a {
   text-decoration: none;
-  
 }
 
 nav li a {
@@ -89,41 +101,38 @@ nav li a {
 
 nav li a:hover {
   color: rgb(255, 222, 177);
-  
-  
 }
 
 main {
-  font-family: "Beiruti", serif;
+  font-family: "Roboto", serif;
   padding: 0 2rem;
+  flex: 1;
 }
 
 .main-splash {
   width: 100%;
   height: auto;
-  margin-bottom: 5%;
 }
 
 footer {
-
-  font-family: "Beiruti", serif;
+  
   height: 10%;
 }
 
 p {
-  font-family: "Beiruti", serif;
+  font-family: "Roboto", serif;
   font-size: xx-large;
   color: rgb(255, 222, 177);
 }
 
 li {
-  font-family: "Beiruti", serif;
+  font-family: "Roboto", serif;
   color: rgb(255, 222, 177);
   font-size: xx-large;
 }
 
 #signup {
-  font-family: "Beiruti", serif;
+  font-family: "Roboto", serif;
   color: rgb(255, 222, 177);
   font-size: x-large;
 }
