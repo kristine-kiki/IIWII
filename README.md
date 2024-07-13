@@ -22,8 +22,8 @@ Describes the benefits of joining IIWII.
 <li><strong>Contact</strong></li>
 Allows visitors to sign up for updates and information on candle-making.
 <li><strong>Sign Up!</strong></li>
-Sign up section to recieve newest updates and information about how to make candles
-<img src="assets/css/images/contacts.png">
+Sign up section to recieve newest updates and information about how to make candles<br>
+<img src="assets/css/images/contact.png">
 <img src="assets/css/images/signup.png">
 
 ## The Footer
@@ -56,7 +56,8 @@ Github repository-Settings-Branch-chainged to "main"-Saved. System provided live
 Unfortunately I did not use Wireframes as I did not know about them. I was drafting web page layout in my notebook. At the beggining it helped, but with chaping the project I faced difficulties. About Balsamiq I learned just on the day i needed to submit my project. Absolutely will use it in the future.
 
 ## Credits
-Acknowledgments go to Slack users Hannah O. and IoanZaharia_5p, as well as the mentor and tutor support.
+Acknowledgments go to Slack users Hannah O. and IoanZaharia_5p and Tomas_K_Alumni_lead
+ , as well as the mentor and tutor support.
 
 ## Content
 As suggested I was using [Font Awesome](https://fontawesome.com/) and [Favicon](https://favicon.io/). Pictures were taken from [Pexels](https://www.pexels.com/). Was using spellcheck as well.
