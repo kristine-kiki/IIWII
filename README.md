@@ -54,6 +54,7 @@ Github repository-Settings-Branch-chainged to "main"-Saved. System provided live
 
 ## Wireframes
 Unfortunately I did not use Wireframes as I did not know about them. I was drafting web page layout in my notebook. At the beggining it helped, but with chaping the project I faced difficulties. About Balsamiq I learned just on the day i needed to submit my project. Absolutely will use it in the future.
+<img src="assets/css/images/project.png">
 
 ## Credits
 Acknowledgments go to Slack users Hannah O. and IoanZaharia_5p and Tomas_K_Alumni_lead
