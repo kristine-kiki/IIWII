@@ -145,6 +145,10 @@ li {
 
 }
 
+.emaillink {
+  color: rgb(255, 149, 0);
+}
+
 .gold {
   color: rgb(255, 149, 0) !important;
 }
