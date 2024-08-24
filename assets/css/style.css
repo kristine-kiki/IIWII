@@ -1,7 +1,7 @@
-
+/*import fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+/*global styles*/
 body {
   font-family: "Roboto", serif;
   display: flex;
@@ -10,6 +10,7 @@ body {
   background-color: rgb(39, 23, 1);
 }
 
+/*header styles*/
 header {
   font-family: "Roboto", serif;
   margin: 0 auto;
@@ -46,6 +47,8 @@ h2 {
   color: rgb(255, 149, 0);
   font-size: 25px;
 }
+
+/*navigatinon styles*/
 nav ul {
   list-style: none;
   text-align: center;
@@ -97,6 +100,7 @@ nav li a:hover {
   color: rgb(255, 222, 177);
 }
 
+/*main styles*/
 main {
   font-family: "Roboto", serif;
   padding: 0 2rem;
@@ -107,7 +111,7 @@ main {
   width: 100%;
   height: auto;
 }
-
+/*footer styles*/
 footer {
   height: 10%;
 }
@@ -153,6 +157,7 @@ li {
   color: rgb(255, 149, 0) !important;
 }
 
+/*responsive styles*/
 @media only screen and (max-width: 600px) {
   p {
     font-size: large;
